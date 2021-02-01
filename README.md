@@ -13,15 +13,15 @@
    
    
 * 임베딩 기법의 역사와 종류
- * 통계 기반
-   *잠재 의미 분석(Latent Semantic Analysis): 단어 사용 빈도 등 말뭉치의 통계량 정보가 들어 있는 커다란 행렬에 특이값 분해(Singular Value Decomposition)등 수학적 기법을 적용해, 행렬에 속한 벡터들의 차원을 축소하는 방법
-   (단어-문서 행렬(Word-Document Matrix), TF-IDF(Term Frequency-Inverse Document Frequency), 단어-문맥 행렬(Word-Context Matrix), 점별 상호 정보량 행렬(PointWise Mutual Information Matrix)
+  * 통계 기반
+    *잠재 의미 분석(Latent Semantic Analysis): 단어 사용 빈도 등 말뭉치의 통계량 정보가 들어 있는 커다란 행렬에 특이값 분해(Singular Value Decomposition)등 수학적 기법을 적용해, 행렬에 속한 벡터들의 차원을 축소하는 방법
+    (단어-문서 행렬(Word-Document Matrix), TF-IDF(Term Frequency-Inverse Document Frequency), 단어-문맥 행렬(Word-Context Matrix), 점별 상호 정보량 행렬(PointWise Mutual Information Matrix)
    
- * 뉴럴 네트워크 기반
-  * 이전 단어들이 주어졌을 때 다음 단어가 뭐가 될지 예측
-  * 문장 내 일부분에 구멍을 뚫고 해당 단어가 무엇일지 예측
+  * 뉴럴 네트워크 기반
+    * 이전 단어들이 주어졌을 때 다음 단어가 뭐가 될지 예측
+    * 문장 내 일부분에 구멍을 뚫고 해당 단어가 무엇일지 예측
   
- * 단어 수준 : NPLM, Word2Vec, GloVe, FastText, Swivel ...
- * 문장 수준 : ELMo, BERT, GPT ...
+  * 단어 수준 : NPLM, Word2Vec, GloVe, FastText, Swivel ...
+  * 문장 수준 : ELMo, BERT, GPT ...
  
 
